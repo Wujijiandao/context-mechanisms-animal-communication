@@ -56,8 +56,7 @@ stage. See `PROVENANCE.md`.
 
 ## Citation
 
-Use the repository's `CITATION.cff` or the Zenodo DOI generated for the tagged release. Please also cite the original datasets and associated
-papers for any empirical analysis reused.
+The first public reproducibility release is permanently archived on Zenodo. For exact reproducibility against `v1.0.0`, cite version DOI `10.5281/zenodo.22293278`. For the evolving software project across all releases, use concept DOI `10.5281/zenodo.22293277`. Please also cite the original datasets and associated papers for any empirical analysis reused.
 
 ## Licence
 

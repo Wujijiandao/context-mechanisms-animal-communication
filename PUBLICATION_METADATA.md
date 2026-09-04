@@ -15,6 +15,13 @@
 
 `animal-communication`, `animal-behavior`, `behavioural-ecology`, `bioacoustics`, `causal-inference`, `partial-identification`, `signal-detection-theory`, `information-theory`, `receiver-psychology`, `reproducible-research`, `open-science`, `python`
 
+## Publication status
+
+**Status:** PUBLISHED / ARCHIVED  
+**GitHub release:** `v1.0.0 — First Public Reproducibility Release`  
+**Zenodo exact archive:** `10.5281/zenodo.22293278`  
+**Zenodo concept record:** `10.5281/zenodo.22293277`
+
 ## First release
 
 **Tag:** `v1.0.0`  
@@ -48,7 +55,11 @@ The public release does not contain the full review manuscript, journal submissi
 
 The public test suite reproduces the retained titi 2013 numerical target and the data-independent A2 power-planning and SDT-identifiability checks. The broader private research archive retains the full empirical regression suite.
 
-## Zenodo
+## Zenodo — archived release
+
+**Version DOI:** `10.5281/zenodo.22293278`  
+**Concept DOI (all versions):** `10.5281/zenodo.22293277`  
+**Archive date:** 2026-09-04  
 
 **Resource type:** Software  
 **Title:** `Context Mechanisms in Animal Communication: Reproducible Analysis Code`  
@@ -79,13 +90,6 @@ The associated full review manuscript, journal submission files, correspondence,
 - open science
 - Python
 
-### Recommended Zenodo/GitHub workflow
+### Post-release record
 
-1. Create the public GitHub repository and push the contents of this public-repo package to `main`.
-2. Connect the GitHub account to Zenodo and enable this repository **before** creating the first GitHub release.
-3. Confirm that `.zenodo.json` and `CITATION.cff` are present on `main`. Because `.zenodo.json` is present, Zenodo will use it in preference to `CITATION.cff` for GitHub-release archiving.
-4. Create the GitHub release from tag `v1.0.0` using the release title and notes above.
-5. Zenodo should archive the release and assign the version DOI; record both the version DOI and the concept DOI back in the GitHub README after archiving.
-6. When the associated paper receives a DOI, add it as a related identifier in `.zenodo.json` and update the README/citation guidance in the next software release.
-
-**Important:** GitHub-integration DOIs cannot be pre-reserved. If a DOI must be known before the GitHub release, use a manual Zenodo deposit instead.
+The GitHub `v1.0.0` release and corresponding Zenodo archive were successfully created on 2026-09-04. The release tag is treated as immutable. Future software changes should use a new GitHub release/version and obtain a new Zenodo version DOI under the same concept DOI `10.5281/zenodo.22293277`.

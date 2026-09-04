@@ -18,3 +18,10 @@ keywords:
   - signal detection theory
   - information theory
   - reproducible research
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22293278"
+    description: "Exact archived public software release v1.0.0"
+  - type: doi
+    value: "10.5281/zenodo.22293277"
+    description: "Zenodo concept DOI for all software versions"
