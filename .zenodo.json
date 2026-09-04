@@ -1,1 +1,56 @@
-
+{
+  "title": "Context Mechanisms in Animal Communication: Reproducible Analysis Code",
+  "upload_type": "software",
+  "description": "This software release provides reproducible Python analyses and an identification-oriented framework for studying context effects in animal communication. The central methodological problem is that a context-sensitive behavioural response does not uniquely identify the causal location at which context entered the communication system. The repository organises candidate explanations around signal production, transmission and sensory access, current-context information integration, history-dependent receiver state, and response decision/action selection, and treats partially identified compatible mechanism sets as legitimate outcomes.\n\nVersion 1.0.0 is the first public reproducibility release. It contains the maintained analysis code, helper modules, public smoke and numerical regression tests, formal notes on signal-detection observational equivalence and compatible mechanism sets, and a CC0/Dryad-derived processed extract for the titi-monkey 2013 analysis. Analysis scripts for additional empirical datasets are included, but processed extracts derived from third-party repositories are intentionally omitted where redistribution rights were not explicitly verified during the release audit. Retrieval identifiers are documented in the repository.\n\nThe associated full review manuscript, journal submission files, correspondence, reviewer suggestions and private author metadata are not included in this public software archive. Users should cite both this software release and the original datasets/papers relevant to any reused empirical analysis.",
+  "creators": [
+    {
+      "name": "Zhang, Yuzhan",
+      "orcid": "0009-0000-3121-7972"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "animal communication",
+    "behavioural ecology",
+    "mechanistic inference",
+    "causal inference",
+    "partial identification",
+    "signal detection theory",
+    "information theory",
+    "receiver psychology",
+    "reproducible research",
+    "open science",
+    "Python"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5061/dryad.sd1sr",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.6007316.v5",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://osf.io/kw5qg/",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://osf.io/t93xa/",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://osf.io/ycnhj/",
+      "relation": "references",
+      "resource_type": "dataset"
+    }
+  ],
+  "doi": "10.5281/zenodo.22293278",
+  "conceptdoi": "10.5281/zenodo.22293277"
+}
