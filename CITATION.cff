@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release and the original datasets relevant to your analysis."
+title: "Context Mechanisms in Animal Communication: Reproducible Analysis Code"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Yuzhan
+    orcid: "https://orcid.org/0009-0000-3121-7972"
+version: 1.0.0
+date-released: 2026-09-04
+license: MIT
+repository-code: "https://github.com/Wujijiandao/context-mechanisms-animal-communication"
+keywords:
+  - animal communication
+  - behavioural ecology
+  - causal inference
+  - partial identification
+  - signal detection theory
+  - information theory
+  - reproducible research

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contextmech"
+version = "1.0.0"
+description = "Reproducible analyses for mechanistic identification of context effects in animal communication"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Yuzhan Zhang"}
+]
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "matplotlib>=3.8"
+]
+
+[project.urls]
+Repository = "https://github.com/Wujijiandao/context-mechanisms-animal-communication"
+
+[tool.setuptools.packages.find]
+where = ["src"]
